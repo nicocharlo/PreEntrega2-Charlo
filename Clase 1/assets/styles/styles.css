@@ -106,34 +106,29 @@ column-gap: 10px;
 row-gap: 10px;
 } */
 
-/* Para celulares */
+/* Para celulares pequeños */
 @media (max-width:480px){
   body{
     background-color: rgb(180, 26, 85);
   }
 }
-
+/* Para tablets y celulares grandes */
 @media (min-width:481px){
   body{
     background-color: blue;
   }
 }
-
+/* Para tables grandes y notebooks */
 @media (min-width:768px){
   body{
     background-color:chocolate;
   }
 }
-
+/* Para celulares pequeños */
 @media (min-width:1279px){
   body{
     background-color: blue;
   }
 }
 
-@media (min-width:1280px){
-  body{
-    background-color: rgb(21, 190, 91);
-  }
-}
 
